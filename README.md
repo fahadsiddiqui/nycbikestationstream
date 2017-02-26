@@ -1,6 +1,8 @@
 # NYC Bike Station Streaming Pipeline
-Run using following command
+Ingesting live JSON being updated [here](https://gbfs.citibikenyc.com/gbfs/en/station_information.json).
 
-    sbt "run <path>"
-    
-Where _path_ is where you want to dump live stream data.
+Run:
+
+    sbt "run path"
+
+Where `path` is where you want to dump live stream data.
